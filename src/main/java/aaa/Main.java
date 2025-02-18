@@ -1,17 +1,12 @@
 package aaa;
 
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 public class Main {
 
-    private static final Logger log = LogManager.getLogger(Main.class);
-
     public static void main(String[] args) {
-        IsSubsequence isSubsequence = new IsSubsequence();
+        SingleNumber singleNumber = new SingleNumber();
 
-        System.out.println(isSubsequence.isSubsequence("bb", "ahbgdc"));
+        System.out.println(singleNumber.singleNumber(new int[] {4}));
 
     }
 }
