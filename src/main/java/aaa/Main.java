@@ -4,9 +4,9 @@ package aaa;
 public class Main {
 
     public static void main(String[] args) {
-        SingleNumber singleNumber = new SingleNumber();
+        FindTheDifference findTheDifference = new FindTheDifference();
 
-        System.out.println(singleNumber.singleNumber(new int[] {4}));
+        System.out.println(findTheDifference.findTheDifference("abc", "abcd"));
 
     }
 }
